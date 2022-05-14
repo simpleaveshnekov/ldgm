@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MGDLivery Store</string>
+    <string name="default_notification_channel_id">1234</string>
+    <string name="facebook_app_id">0000000000000000</string>
+    <string name="fb_login_protocol_scheme">fb0000000000000000</string>
+    <string name="facebook_client_token">facebook client token</string>
+    <string name="map_key">AIzaSyDus3VRkmeEF8ksLyZFciJI49Jfs4ik1_Q</string>
+</resources>

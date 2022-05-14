@@ -1,0 +1,121 @@
+name: user
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^1.0.3
+  get: ^4.1.4
+  fluttertoast: ^8.0.9
+  intl: ^0.17.0
+  pin_input_text_field: ^4.1.2
+  flutter_swiper: ^1.1.6
+  percent_indicator: ^4.0.0
+  flushbar: ^1.10.4
+  cupertino_icons: ^1.0.4
+  shared_preferences: ^2.0.13
+  firebase_analytics: ^9.1.2
+  firebase_core: ^1.13.1
+  google_sign_in: ^5.2.4
+  firebase_auth: ^3.3.11
+  connectivity_plus: ^2.2.1
+  #  flutter_facebook_auth: ^3.5.3
+  #  flutter_facebook_login: ^3.0.0
+  flutter_login_facebook: ^1.4.1
+  dio: ^4.0.1
+  permission_handler: ^9.2.0
+  image_picker: ^0.8.4+11
+  image_cropper: ^1.5.0
+  flutter_image_compress: ^1.1.0
+  email_validator: ^2.0.1
+  mobile_number: ^1.0.4
+  otp_autofill: 2.1.0
+  sms_autofill: 2.2.0
+  material_design_icons_flutter: ^5.0.6295
+  geolocator: ^8.2.0
+  geocoding: ^2.0.4
+  cached_network_image: ^3.1.0+1
+  shimmer: ^2.0.0
+  font_awesome_flutter: ^10.0.0
+  date_time_picker: ^2.1.0
+  razorpay_flutter: ^1.2.9
+  flutter_paystack: ^1.0.5+1
+  carousel_slider: ^4.0.0
+  dots_indicator: ^2.1.0
+  firebase_messaging: ^11.2.11
+  flutter_local_notifications: ^9.4.0
+  http: ^0.13.4
+  path_provider: ^2.0.9
+  flutter_html: ^2.1.5
+  url_launcher: ^6.0.20
+  google_maps_flutter: ^2.1.2
+  flutter_mapbox_autocomplete: ^2.0.0
+  mapbox_search: ^3.0.1+2
+  flutter_rating_bar: ^4.0.0
+  share_plus: ^4.0.1
+  photo_view: ^0.13.0
+  flutter_polyline_points: ^1.0.0
+  badges: ^2.0.2
+  flutter_barcode_scanner: ^2.0.0
+  sign_in_with_apple: ^3.3.0
+  crypto: ^3.0.1
+  cloud_firestore: ^3.1.10
+  firebase_storage: ^10.2.9
+  timelines: ^0.1.0
+  readmore: 2.1.0
+  marquee: ^2.2.1
+  flutter_speed_dial: ^5.0.0+1
+  provider: 6.0.2
+
+dependency_overrides:
+  platform: ^3.1.0
+  flutter_svg: ^1.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+  change_app_package_name: ^1.0.0
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: false
+  image_path: "assets/images/icon.png"
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+
+
+  fonts:
+    - family: Google-Sans
+      fonts:
+        - asset: assets/fonts/ProductSans-Regular.ttf
